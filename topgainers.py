@@ -27,8 +27,10 @@ class Topgainers(object):
 		try:
 			if(self.rdb):
 				keys = self.rdb.keys()
-				for k in self.rdb.scan_iter(match='top_*'):
-					self.nsedata[k] = self.rdb.hgetall(k)
+				# for k in self.rdb.scan_iter(match='top_*'):
+				# 	self.nsedata[k] = self.rdb.hgetall(k)
+				for i in range(1,11):
+					self.nsedata["top_"+str(i)] = self.rdb.hgetall("top_"+str(i))
 			else:
 				if self.connectionFlag <= 5:
 					self.connectToRedis()
@@ -45,7 +47,8 @@ class Topgainers(object):
 	def createView(self):
 		html = ""
 		count = 1
-		for data in self.nsedata:
+		# for data in self.nsedata:
+		for i in range(1,11):
 			html += '''<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 top-card-container">
 						<div class="row top-card">
 							<div class="col-xs-12 nse-symbol">%s</div>
@@ -60,7 +63,7 @@ class Topgainers(object):
 							<div class="col-xs-6 nse-latest-ex-dt">Latest Ex Date</div><div class="col-xs-6 nse-latest-ex-dt-val">%s</div>
 							<div class="ranking">%s</div>
 						</div>
-					</div>''' % (self.nsedata[data]["symbol"],self.nsedata[data]["ltp"],self.nsedata[data]["netPrice"],self.nsedata[data]["tradedQuantity"],self.nsedata[data]["turnoverInLakhs"],self.nsedata[data]["openPrice"],self.nsedata[data]["highPrice"],self.nsedata[data]["lowPrice"],self.nsedata[data]["previousPrice"],self.nsedata[data]["lastCorpAnnouncementDate"],count)
+					</div>''' % (self.nsedata["top_"+str(i)]["symbol"],self.nsedata["top_"+str(i)]["ltp"],self.nsedata["top_"+str(i)]["netPrice"],self.nsedata["top_"+str(i)]["tradedQuantity"],self.nsedata["top_"+str(i)]["turnoverInLakhs"],self.nsedata["top_"+str(i)]["openPrice"],self.nsedata["top_"+str(i)]["highPrice"],self.nsedata["top_"+str(i)]["lowPrice"],self.nsedata["top_"+str(i)]["previousPrice"],self.nsedata["top_"+str(i)]["lastCorpAnnouncementDate"],count)
 			count += 1
 		lines = []
 		with open('src-index.html') as infile:

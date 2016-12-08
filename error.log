@@ -39,3 +39,4 @@
 {"message": "Getdata instance has no attribute 'waitForTime'", "method": "saveDataToRedis"}
 {"message": "cannot concatenate 'str' and 'float' objects", "method": "saveDataToRedis"}
 {"message": "Getdata instance has no attribute 'key'", "method": "saveDataToRedis"}
+{"message": "<urlopen error [Errno -2] Name or service not known>", "method": "requestNseData"}
