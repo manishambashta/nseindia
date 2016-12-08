@@ -1,0 +1,53 @@
+body{
+	background: rgba(0, 0, 56, 0.79);
+}
+.top-card-container{
+	padding:0px;
+}
+.top-card{
+	background: #fff;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	padding: 5px 14px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.heading{
+	text-align: center;
+    background: rgb(54, 173, 107);
+	padding: 12px;
+    font-size: 20px;
+	font-weight: bolder;
+	color: #fff;
+}
+.nse-symbol{
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-weight: 800;
+	background: rgba(251, 255, 52, 0.54);
+}
+.nse-ltp,.nse-pc-change,.nse-traded-qty,.nse-value-lakhs,.nse-open,.nse-high,.nse-low,.nse-prev-close,.nse-latest-ex-dt,.nse-ltp-val,.nse-pc-change-val,.nse-traded-qty-val,.nse-value-lakhs-val,.nse-open-val,.nse-high-val,.nse-low-val,.nse-prev-close-val,.nse-latest-ex-dt-val{
+	text-align: center;
+	border: 1px solid #eee;
+	padding: 6px 2px;
+	margin-bottom: 5px;
+	font-weight: bolder;
+	color: #0a8c08;
+}
+.nse-ltp,.nse-pc-change,.nse-traded-qty,.nse-value-lakhs,.nse-open,.nse-high,.nse-low,.nse-prev-close,.nse-latest-ex-dt{
+	border-right:0px;
+	color: #c30b60;
+    font-weight: 800;
+}
+.ranking{
+	position: absolute;
+	background: #228ae4;
+	color: #fff;
+	width: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 50%;
+    left: 11px;
+}

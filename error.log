@@ -1,0 +1,41 @@
+{"message": "'StrictRedis' object has no attribute 'quit'", "method": "__init__"}
+{"message": "global name 'urllib2' is not defined", "method": "requestNseData"}
+{"message": "hmset() takes exactly 3 arguments (2 given)", "method": "saveDataToRedis"}
+{"message": "global name 'sleep' is not defined", "method": "waitForTime"}
+{"message": "global name 'urllib2' is not defined", "method": "requestNseData"}
+{"message": "hmset() takes exactly 3 arguments (2 given)", "method": "saveDataToRedis"}
+{"message": "'module' object has no attribute 'sleep'", "method": "waitForTime"}
+{"message": "global name 'urllib2' is not defined", "method": "requestNseData"}
+{"message": "hmset() takes exactly 3 arguments (2 given)", "method": "saveDataToRedis"}
+{"message": "global name 'urllib2' is not defined", "method": "requestNseData"}
+{"message": "'hmset' with 'mapping' of length 0", "method": "saveDataToRedis"}
+{"message": "HTTP Error 403: Forbidden", "method": "requestNseData"}
+{"message": "HTTP Error 403: Forbidden", "method": "requestNseData"}
+{"message": "HTTP Error 403: Forbidden", "method": "requestNseData"}
+{"message": "HTTP Error 403: Forbidden", "method": "requestNseData"}
+{"message": "HTTP Error 403: Forbidden", "method": "requestNseData"}
+{"message": "HTTP Error 403: Forbidden", "method": "requestNseData"}
+{"message": "global name 'saveDataToRedis' is not defined", "method": "requestNseData"}
+{"message": "'str' object has no attribute 'iteritems'", "method": "saveDataToRedis"}
+{"message": "'str' object has no attribute 'iteritems'", "method": "saveDataToRedis"}
+{"message": "'str' object has no attribute 'iteritems'", "method": "saveDataToRedis"}
+{"message": "'str' object has no attribute 'iteritems'", "method": "saveDataToRedis"}
+{"message": "'str' object has no attribute 'iteritems'", "method": "saveDataToRedis"}
+{"message": "invalid DB index", "method": "saveDataToRedis"}
+{"message": "'list' object has no attribute 'iteritems'", "method": "saveDataToRedis"}
+{"message": "unsupported operand type(s) for +: 'float' and 'str'", "method": "saveDataToRedis"}
+{"message": "local variable 'logtime' referenced before assignment", "method": "requestNseData"}
+{"message": "global name 'datetime' is not defined", "method": "requestNseData"}
+{"message": "redefinition of group name 'M' as group 5; was group 1", "method": "requestNseData"}
+{"message": "local variable 'data' referenced before assignment", "method": "saveDataToRedis"}
+{"message": "local variable 'data' referenced before assignment", "method": "saveDataToRedis"}
+{"message": "local variable 'data' referenced before assignment", "method": "saveDataToRedis"}
+{"message": "Getdata instance has no attribute 'waitForTime'", "method": "saveDataToRedis"}
+{"message": "Getdata instance has no attribute 'waitForTime'", "method": "saveDataToRedis"}
+{"message": "Getdata instance has no attribute 'waitForTime'", "method": "saveDataToRedis"}
+{"message": "Getdata instance has no attribute 'waitForTime'", "method": "saveDataToRedis"}
+{"message": "Getdata instance has no attribute 'waitForTime'", "method": "saveDataToRedis"}
+{"message": "Getdata instance has no attribute 'waitForTime'", "method": "saveDataToRedis"}
+{"message": "Getdata instance has no attribute 'waitForTime'", "method": "saveDataToRedis"}
+{"message": "cannot concatenate 'str' and 'float' objects", "method": "saveDataToRedis"}
+{"message": "Getdata instance has no attribute 'key'", "method": "saveDataToRedis"}
