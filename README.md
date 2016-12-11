@@ -1,5 +1,5 @@
 # nseindia
-This is a simple app for showing top 10 gainers of NSE. The data gets refresh every 5 minutes.
+This is a simple app for showing top 10 gainers of NSE. The data get refreshed every 5 minutes.
 This project uses Cherrypy and Redis
 
 To run this project, essentials are : Python, Redis, pip, cherrypy, python-redis
