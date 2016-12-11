@@ -92,4 +92,5 @@ if __name__=='__main__':
 		            'tools.staticdir.dir' : os.path.join(path, 'public')
 		        }
 	}
+	cherrypy.config.update({'server.socket_host':'0.0.0.0'})
 	cherrypy.quickstart(Topgainers(),'/',conf)
