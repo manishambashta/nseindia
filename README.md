@@ -12,6 +12,6 @@ Run get_data.py , This file updates the data of NSE top gainers every 5 minutes
 Step 2:
 Run topgainers.py , This file creates and manages the server. The visual representation of top gainers of NSE is here
 
-link to live app : http://ambashta.in:8080
+link to live app : http://topnse.ambashta.in/
 
 There are two log files error.log is for get_data.py whereas topgainersError.log is for topgainers.py file
